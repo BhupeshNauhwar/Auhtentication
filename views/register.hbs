@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        {{#if message}}
+        <h3>{{message}}</h3>
+        {{/if}}
+    <form action="/register" method="post"enctype="multipart/form-data">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required placeholder="Enter Name"><br><br>
+    
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required placeholder="Enter Email"><br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required placeholder="Enter Password"><br><br>
+    <label for="age">Age</label>
+    <input type="age" name="age" id="age" required placeholder="Enter Age"><br><br>
+    <label for="gender">Gender</label>
+    <input type="radio" id="gender" name="gender" value="male">Male
+    <input type="radio" id="gender" name="gender" value="female">Female
+    <input type="radio" id="gender" name="gender" value="other">Other <br><br>
+    
+    <label for="image">Upload Image</label>
+     <input type="file" name="image" id="image"><br><br>
+    <input type="submit" name="Submit">
+    
+    </form>
+    <button class="btn"><a href="/">Login</a></button>
+    
+    </div>
+</body>
+</html>

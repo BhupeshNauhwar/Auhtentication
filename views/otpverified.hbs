@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP verified</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="container">
+     <H1>Verify your Otp</H1>
+    {{#if message}}
+        <h3>{{message}}</h3>
+    {{/if}}
+        <form action="/otpverfied" method="post">
+           
+            <input type="email" name="email" id="email" required placeholder="Enter Email"><br><br>
+            
+            <input type="text" name="otp" id="otp" required placeholder="Enter OTP"><br><br>
+
+            <input type="submit" value="Submit OTP">
+        </form>
+   </div>
+    
+</body>
+</html>

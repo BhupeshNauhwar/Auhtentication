@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="age"],
+input[type="file"],
+input[type="submit"],
+input[type="radio"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    background-color: #4CAF50;
+    
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin-left:0;
+    height: 5vh;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
