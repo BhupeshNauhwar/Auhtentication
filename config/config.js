@@ -1,7 +1,7 @@
-const sessionSecret="sessionsecrete"
+const sessionSecrte="sessionsecrete"
 
-const emailUser="bhupeshmtr052000@gmail.com"
-const emailPassword='gtin xzid mbna tnsc'
+const emailUser=""
+const emailPassword=''
 module.exports={
-    sessionSecret,emailPassword,emailUser
+    sessionSecrte,emailPassword,emailUser
 }

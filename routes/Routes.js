@@ -8,7 +8,7 @@ const auth=require('../middleware/auth');
 
 
 Routes.use(session({
-    secret: config.sessionSecret,
+    secret: config.sessionSecrte,
     resave: true,
     saveUninitialized: true,
     cookie: { maxAge: 7*4*60*60*1000}

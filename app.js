@@ -3,7 +3,7 @@ const app=express();
 const Port=5000;
 const mongoose=require('mongoose');
 
-mongoose.connect("mongodb+srv://bhupeshkumar052000:1lkcRqum9TtRnDKb@authe.sk0vpkm.mongodb.net/?retryWrites=true&w=majority&appName=Authem")
+mongoose.connect("mongodb://127.0.0.1:27017/VotingSystem")
 .then(()=>{
     console.log('mongodb connected');
 })
